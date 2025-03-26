@@ -7,7 +7,8 @@ Selamat Datang User, ini adalah tugas Object Orienter Programming (OOP) Python
 Silahkan pilih program yang ingin dijalankan:
 1. Pyramid
 2. Inverted Pyramid
-3. Prime Number''')
+3. Prime Number
+4. Exit''')
 
 def main():
     choice = int(input("Masukkan pilihan Anda: "))
@@ -26,10 +27,10 @@ def main():
             print(f"{n} adalah bilangan prima")
         else:
             print(f"{n} bukan bilangan prima")
+    elif choice == 4:
+        print('Program telah berhenti, Terima kasih')
     else:
         print("Pilihan tidak valid")
 
 if __name__ == "__main__":
     main()
-
-

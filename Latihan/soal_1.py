@@ -10,10 +10,3 @@ class left_pyramid:
                 print('* ', end='')
             print()
 
-def main():
-    n = int(input("Enter the number of rows: "))
-    Lpyramid = left_pyramid(n)
-    Lpyramid.run_left_pyramid()
-            
-if __name__ == "__main__":
-    main()

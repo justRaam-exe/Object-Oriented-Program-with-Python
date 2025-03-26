@@ -16,13 +16,4 @@ class prime_num:
         else :
             return False
 
-def main():
-    n = int(input("Masukkan bilangan: "))
-    prima = prime_num(n)
-    if prima.cekPrima():
-        print(f"{n} adalah bilangan prima")
-    else:
-        print(f"{n} bukan bilangan prima")
 
-if __name__ == "__main__":
-    main()

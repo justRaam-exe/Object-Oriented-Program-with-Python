@@ -8,7 +8,3 @@ class inv_pyramid:
                 print('* ', end='')
             print()
             
-if __name__ == "__main__":
-    m = int(input("Enter the number of rows: "))
-    inv_pyramid = inv_pyramid(m)
-    inv_pyramid.run_inv_pyramid()
